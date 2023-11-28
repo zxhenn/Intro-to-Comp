@@ -420,9 +420,9 @@ margin-top: 2cm;
        
   }
      @media (max-width: 600px) {
-    .welcome {
-        margin-left: 10%;
-        font-size: 1.5em;
+    .h2 {
+        font-size: 20px;
+        margin: 20px;
     }
 
     .hi {
@@ -433,5 +433,49 @@ margin-top: 2cm;
     .button1,
     .button2,
     .button3 {
-        margin-left: 10%;
+        margin-left: 5%;
+        width: 80%; /* Adjust the width of the buttons */
     }
+
+    #page1 img {
+        height: 50vh; /* Adjust the height of the image */
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .welcome {
+        font-size: 1.5em;
+    }
+
+    .navbar, .navbar2, .navbar4 {
+        flex-direction: column; /* Stack navigation links in a column on small screens */
+    }
+
+    .navbar a, .navbar2 a, .navbar4 a {
+        padding: 10px 0; /* Adjust spacing for navigation links */
+    }
+
+    .about {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .abouth {
+        margin-left: 5%;
+    }
+
+    .abouth img {
+        width: 100%; /* Make the image responsive */
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .page4div {
+        margin-left: 5%;
+        width: 80%; /* Adjust the width of the form container */
+    }
+
+    .page5div textarea {
+        width: 100%; /* Make the textarea responsive */
+    }
+}
