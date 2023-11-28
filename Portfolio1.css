@@ -1,0 +1,421 @@
+@keyframes slideinUp{
+    from{
+        transform: translateY(-60px);
+        opacity: 0;
+   
+    }
+to {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+}
+.welcome {
+    margin: 0;
+    padding: 0;
+    margin-left: 350px;
+    color: #000000;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 2cm;
+    margin-top: 5cm;
+}
+
+.hi{
+    color: #000000;
+    font-family: georgia, ;
+    font-size: 17px;
+    text
+    
+ padding: 0;
+ margin: 0;
+ margin-left: 300px;
+ margin-top: 1cm;
+ 
+
+}
+
+.animation1{
+    animation-name: slideinUp;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    
+}
+
+
+.button1{
+    font-family: Bold,arial,georgia,sans-serif;
+outline-color: white 20px;
+background-color: rgba(237, 32, 32, 0.884);
+color: white;
+cursor: pointer;
+height: 80px;
+width: 160px;
+padding: 0;
+margin: 0;
+margin-left: 400px;
+margin-top: 1cm;
+height: 60px;
+}
+.button2{
+    font-family: Bold,arial,georgia,sans-serif;
+outline-color: white 20px;
+background-color: rgba(237, 32, 32, 0.884);
+color: white;
+cursor: pointer;
+height: 80px;
+width: 160px;
+padding: 0;
+margin: 0;
+margin-left: 0px;
+margin-top: 1cm;
+height: 60px;
+}
+.button3{
+    font-family: Bold,arial,georgia,sans-serif;
+outline-color: white 20px;
+background-color: rgba(237, 32, 32, 0.884);
+color: white;
+cursor: pointer;
+height: 80px;
+width: 160px;
+padding: 0;
+margin: 0;
+margin-left: 0px;
+margin-top: 1cm;
+height: 60px;
+}
+.button1:hover{
+    transition: background-color 0.5s ease;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 105, 105);
+    font-weight: bold;
+}
+.button2:hover{
+    transition: background-color 0.5s ease;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 105, 105);
+    font-weight: bold;
+}
+.button3:hover{
+    transition: background-color 0.5s ease;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 105, 105);
+    font-weight: bold;
+}
+
+
+
+button{
+    border: none; /* Remove the default button border */
+    background-color: #a3aeba; /* Set your desired button background color */
+    color: #fffefe; /* Set your desired button text color */
+    padding: 10px 20px; /* Adjust padding to your liking */
+    border-radius: 5px; /* Add rounded corners to the button */
+    outline: none; /* Remove the default outline when button is focused */
+}
+
+.header{
+    font-family: 
+    font-size: 30px;
+    font-weight: 50;
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: white;
+   
+    background-size: cover;
+    background-position: center top;
+    
+
+   scroll-behavior: smooth;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+section {
+    margin: 0%;
+    padding: 20;
+}
+.navbar {
+    background-color: rgb(0, 0, 0); /* Background color */
+    overflow: hidden;
+}
+
+.navbar2 {
+        background-color: rgb(0, 0, 0); /* Background color */
+        overflow: hidden;
+}
+.navbar3 {
+    background-color: rgb(0, 0, 0); /* Background color */
+    overflow: hidden;
+}
+
+.navbar2 a{
+    background-color: #000000;
+ 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 10px 150px; /* Spacing around each link */
+    text-decoration: none;
+   
+  font-weight: 30; 
+}
+.navbar2 a:hover {
+    transition: background-color 0.3s ease;
+    background-color: #f80000; /* Background color on hover */
+    color: rgb(244, 244, 244); /* Text color on hover */
+    
+}
+
+.navbar3 a{
+    background-color: #000000;
+ 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 10px 150px; /* Spacing around each link */
+    text-decoration: none;
+  font-weight: 30; 
+}
+.navbar3 a:hover {
+    background-color: #f80000; /* Background color on hover */
+    color: rgb(244, 244, 244); /* Text color on hover */
+    transition: background-color 0.3s ease;
+}
+.navbar4 {
+    background-color: rgb(0, 0, 0); /* Background color */
+    overflow: hidden;
+}
+
+.navbar4 a{
+    background-color: #000000;
+ height: 3cm;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 10px 150px; /* Spacing around each link */
+    text-decoration: none;
+  font-weight: 30; 
+}
+.navbar4 a:hover {
+    background-color: #f80000; /* Background color on hover */
+    color: rgb(244, 244, 244); /* Text color on hover */
+    transition: background-color 0.3s ease;
+}
+
+.navbar a {
+ background-color: #000000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255); /* Text color */
+    text-align: center;
+    padding: 10px 150px; /* Spacing around each link */
+    text-decoration: none;
+  font-weight: 10; 
+  
+ 
+}
+.h2 {
+   
+    float: left;
+       font-size: 33px;
+       color: white; /* Text color */
+       text-align: center;
+       padding: 8px 38px; /* Spacing around each link */
+       text-decoration: none;
+       font-family:'Courier New', Courier, monospace ;
+     font-weight: 10; 
+       
+}
+.about{
+   
+       font-size: 33px;
+       color: white; /* Text color */
+   margin-left: 100px;
+   margin-top: 50px;
+       padding: 8px 38px; /* Spacing around each link */
+     font-weight: 40; 
+     font-size: 50px;
+   
+
+}
+
+.navbar a:hover {
+    transition: background-color 0.3s ease;
+    background-color: #f80000; /* Background color on hover */
+    color: rgb(244, 244, 244); /* Text color on hover */
+    transition: background-color .5s ease;
+    
+}
+
+#page1{
+    background-image: url(https://wallpaperswide.com/download/molecular_structure-wallpaper-1920x1200.jpg);
+    padding: 0;
+    margin: 0;
+    background-clip: content-box;
+    background-size: cover;
+    scroll-behavior: smooth;
+    height: 100vh;
+    scroll-behavior: smooth;
+
+}
+#page2{
+    background-color: #000000;
+    padding: 0%;
+    margin: 0;
+    background-clip: content-box;
+    background-size: cover;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+/* #page3{
+    background-image: url(https://wallpaperswide.com/download/molecular_structure-wallpaper-1920x1200.jpg);
+    padding: 0%;
+    margin: 0;
+    background-clip: content-box;
+    background-size: cover;
+    scroll-behavior: smooth;
+    height: 100vh;
+} */
+#page4{
+    background-color: black;
+    padding: 0%;
+    margin: 0;
+    background-clip: content-box;
+    background-size: cover;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
+.image1{
+margin: 0;
+border: 0;
+padding: 0;
+}
+
+/* ------------about-------- */
+.about ul{
+padding: 0;
+margin: 0;
+display: flex;
+align-items: center;
+}
+
+.about-bg{
+    padding: 0;
+    margin: 0;
+ height: 100vh;
+ width: 100%;
+ background-image: url();
+  
+}
+.about-bg img{
+    height: 30%;
+    width:30%;
+  object-fit: cover;
+  border-radius: 20px;
+  
+
+
+}
+.about-bg ul{
+flex: content;
+justify-content: center;
+}
+
+.abtext{
+    float: left;
+       font-size: 33px;
+       color: white; /* Text color */
+       text-align: center;
+       padding: 8px 38px; /* Spacing around each link */
+       text-decoration: none;
+       font-family:'Courier New', Courier, monospace ;
+     font-weight: 10; 
+}
+
+.abouth {
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5cm;
+}
+.abouth img{
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    
+    width: 30%;
+    position: absolute;
+    margin-left: 19cm;
+    margin-bottom: 12cm;
+}
+
+.page4div {
+  margin-left: 8cm;
+margin-top: 2cm;
+  width: 600px;
+  position: absolute;
+  
+}
+.page4div img {
+  
+}
+
+.page4div input {
+  width: 250px;
+  height: 32px;
+    padding: 10px; /* Adjust padding for better spacing */
+    font-size: 16px; /* Adjust font size */
+    border: 1px solid #ccc; /* Add a border for visualization */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #ffffff;
+  }
+  .page4div input:active, input:active {
+  
+   
+    background-color: #ffffff;
+  }
+
+.page5div {
+    padding: 20px; /* Adjust padding for better spacing */
+    font-size: 16px; /* Adjust font size */
+   position: absolute;
+   margin-left: 24cm;
+   margin-top: 1.8cm;
+   
+  }
+  .page5div textarea{
+   
+        width: 500px;
+        height: 290px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        text-align: left;
+       
+  }
