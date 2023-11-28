@@ -419,3 +419,19 @@ margin-top: 2cm;
         text-align: left;
        
   }
+     @media (max-width: 600px) {
+    .welcome {
+        margin-left: 10%;
+        font-size: 1.5em;
+    }
+
+    .hi {
+        margin-left: 5%;
+        font-size: 14px;
+    }
+
+    .button1,
+    .button2,
+    .button3 {
+        margin-left: 10%;
+    }
